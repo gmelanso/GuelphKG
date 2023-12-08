@@ -9,7 +9,7 @@ Showcasing a semantic network of interactions between municipal entities extract
 ![Council meeting scheme](https://github.com/gmelanso/GuelphKG/blob/main/images/CouncilMeeting.png)
 
 |Entity Type|Description|
-| ___ | ___ |
+| --- | --- |
 | City Councillor | Elected representatives for 1 of 6 divisions of Guelph. |
 | Council Meetings | Dated event where councillors governed. |
 | Agenda Items | The discussed topics of the meetings.  |
