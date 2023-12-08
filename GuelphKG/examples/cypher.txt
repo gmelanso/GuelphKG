@@ -1,0 +1,21 @@
+LOAD CSV WITH HEADERS FROM "file:///meeting_entities_property_table.csv" as row
+WITH row
+WHERE row.dateCreated IS NOT NULL
+CALL apoc.merge.node([row.type], {id: row.id}, {dateCreated: row.dateCreated}) YIELD node
+RETURN node;
+
+LOAD CSV WITH HEADERS FROM "file:///meeting_entities_property_table.csv" as row
+WITH row
+WHERE row.dateCreated IS NULL
+CALL apoc.merge.node([row.type], {id: row.id}) YIELD node
+RETURN node;
+
+LOAD CSV WITH HEADERS FROM "file:///council_entities_property_table.csv" as row
+CALL apoc.merge.node([row.type], {id: row.id, name: row.familyName}) YIELD node
+RETURN node;
+
+LOAD CSV WITH HEADERS FROM "file:///entities_relations_table.csv" AS row
+MATCH (h {id: row.head})
+MATCH (t {id: row.tail})
+CALL apoc.create.relationship(h, row.display_relation, {}, t) YIELD rel
+RETURN h, rel, t;

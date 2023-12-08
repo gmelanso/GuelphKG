@@ -1,0 +1,117 @@
+[   # meeting minutes
+    {  
+        "type": "MeetingMinutes",
+        "id": "url",
+        "attendees": {
+            "type": "Relationship",
+            "object": []
+        },
+        "dateCreated": {
+            "type": "Property",
+            "value": ""
+        },
+        "hasPart" {
+            "type": "Relationship",
+            "object": []
+        },
+        "@context": [
+            "https://schema.org/",
+            "https://schema.org/CreativeWork"
+        ]
+    }
+],  # agenda items
+[
+    {
+        "type": "AgendaItem",
+        "id": "urn:guelphkg:AgendaItems:item-#",
+        "abstract": {
+            "type": "Property",
+            "value": ""
+        },
+        "hasPart": {
+            "type": "Relationship",
+            "object" []
+        },
+        "isPartOf": {
+            "type": "Relationship,
+            "object": []
+        },
+        "movedBy": {
+            "type": "Relationship",
+            "object": []
+        },
+        "secondedBy": {
+            "type": "Relationship",
+            "object": []            
+        },
+        "@context": [
+            "https://schema.org/",
+            "https://schema.org/CreativeWork",
+            {
+            "movedBy": "https://schema.org/contributor",
+            "secondedBy": "https://schema.org/contributor"
+            }
+        ]
+    }
+],
+[   # motion
+    {
+        "type": "Motion",
+        "id":  "urn:guelphkg:Motion:motion-#",
+        "abstract": {
+            "type": "Property",
+            "value": ""
+        },
+        "isPartOf": {
+            "type": "Relationship,
+            "object": []
+        },
+        "movedBy": {
+            "type": "Relationship",
+            "object": []
+        },
+        "secondedBy": {
+            "type": "Relationship",
+            "object": []            
+        },
+        "vote": {
+            "type": "Relationship",
+            "object": []
+        },
+        "@context": [
+            "https://schema.org/",
+            "https://schema.org/CreativeWork",
+            {
+            "vote": "https://schema.org/workPerformed",
+            "movedBy": "https://schema.org/contributor",
+            "secondedBy": "https://schema.org/contributor"
+            }
+        ]
+    }
+],
+[   # vote event
+    {
+        "type": "VoteAction",
+        "id":  "urn:guelphkg:VoteAction:vote-#",
+        "yeas": {
+            "type": "Relationship",
+            "object": []
+        },
+        "nays": {
+            "type": "Relationship",
+            "object": []
+        },
+        "isPartOf": {
+            "type": "Relationship,
+            "object": []
+        },
+        "@context": [
+            "https://schema.org/",
+            "https://schema.org/CreativeWork",
+            {
+            "yeas": "https://schema.org/contributor",
+            "nays": "https://schema.org/contributor"
+            }
+        ] 
+    }
+]

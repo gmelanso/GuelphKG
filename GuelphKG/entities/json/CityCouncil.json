@@ -1,0 +1,704 @@
+[
+    {
+        "id": "f6700d08-b551-424a-bb84-0550c587f223",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "mayor@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-837-5643"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": ""
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Guthrie"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "M"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Cam"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/CamGuthrie1.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": 0
+        }
+    },
+    {
+        "id": "9084f6d7-c9fe-4a08-b67d-fd848a4182dc",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "dan.gibson@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2502"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "519-827-6407"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Gibson"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "M"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Dan"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/DanGibson.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "1"
+        }
+    },
+    {
+        "id": "335b60e5-c73d-46aa-b15e-36f110e3c434",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "erin.caton@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "226-821-3200"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Caton"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "F"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Erin"
+        },
+        "image": {
+            "type": "Property",
+            "value": "https://guelph.ca/wp-content/uploads/Councillor-Erin-Caton.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "1"
+        }
+    },
+    {
+        "id": "ffd9f849-67ec-4234-a347-3bd8d1a8bec6",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "rodrigo.goller@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "226-821-1146"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Goller"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "M"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Rodrigo"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/rodrigo-goller.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "2"
+        }
+    },
+    {
+        "id": "82c389bd-aa53-4996-9e53-c665376ece26",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "carly.klassen@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2504"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "519-827-6481"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Klassen"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "F"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Carly"
+        },
+        "image": {
+            "type": "Property",
+            "value": "https://guelph.ca/wp-content/uploads/Carly-Klassen.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "2"
+        }
+    },
+    {
+        "id": "078ac4ec-dfc4-4836-8191-4aba4d6676d6",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "phil.allt@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2510"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "226-332-1673"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Allt"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "M"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Phil"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/PhilAllt.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "3"
+        }
+    },
+    {
+        "id": "0dafe4f7-c62e-49ea-be49-fce551a655df",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "michele.richardson@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2505"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "226-332-4513"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Richardson"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "F"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Michele"
+        },
+        "image": {
+            "type": "Property",
+            "value": "https://guelph.ca/wp-content/uploads/Councillor-Michelle-Richardson.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "3"
+        }
+    },
+    {
+        "id": "52aa17dc-7dad-4930-a092-aa06301d4291",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "christine.billings@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-826-0567"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": ""
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Billings"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "F"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Christine"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/ChristineBillings.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "4"
+        }
+    },
+    {
+        "id": "4d4d0517-2fca-45ac-802f-e76b6e5b432a",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "linda.busuttil@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2512"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": ""
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Busuttil"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "F"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Linda"
+        },
+        "image": {
+            "type": "Property",
+            "value": "https://guelph.ca/wp-content/uploads/01-Linda-Busuttil-scaled-e1686080046266-768x637.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "4"
+        }
+    },
+    {
+        "id": "84de5171-a25b-4013-9aeb-797943742556",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "leanne.piper@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2295"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "519-835-1136"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Piper"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "F"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Leanne"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/Leanne-Piper.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "5"
+        }
+    },
+    {
+        "id": "9b8c4687-d1b9-4ced-935a-6f264b42f649",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "cathy.downer@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2294"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "519-827-8390"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Downer"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "F"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Cathy"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/CathyDowner.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "5"
+        }
+    },
+    {
+        "id": "daad3459-7f22-4ebf-8961-ee2a4ce79f3f",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "ken.chew@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2296"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "226-332-5406"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Yee Chew"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "M"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Ken"
+        },
+        "image": {
+            "type": "Property",
+            "value": "https://guelph.ca/wp-content/uploads/Councillor-Ken-Yee-Chew.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "6"
+        }
+    },
+    {
+        "id": "d33338b7-de62-480c-bb59-5f59b4e8281b",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "dominique.orourke@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 3577"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "226-821-1126"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": " O'Rourke"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "F"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Dominque"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/dominique-orourke.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "6"
+        }
+    },
+    {
+        "id": "7758024b-ccdc-4699-897a-cac1fd49be85",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "bob.bell@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-6152"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": ""
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Bell"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "M"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Bob"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/BobBell2.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "1"
+        }
+    },
+    {
+        "id": "ca72be29-4619-4ca6-b3a6-ac62e6476801",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "james.gordon@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2504"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "519-827-6481"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Gordon"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "M"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "James"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/JamesGordon1.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "2"
+        }
+    },
+    {
+        "id": "e808bf74-12bd-4c81-b81e-dc55aed59b14",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "june.hofland@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2505"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": ""
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Hofland"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "F"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "June"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/june-hoffland.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "3"
+        }
+    },
+    {
+        "id": "394b5c13-01bc-453b-871f-92c31d21e2d6",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "mike.salisbury@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2512"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": "519-827-7398"
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "Salisbury"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "M"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Mike"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/MikeSalisbury.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "4"
+        }
+    },
+    {
+        "id": "b279d732-7770-4dde-8220-b33acebb2d49",
+        "type": "Person",
+        "address": {
+            "type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Ontario",
+            "addressLocality": "Guelph",
+            "postalCode": "N1H 3A1",
+            "streetAddress": "1 Carden Street ",
+            "email": "mark.mackinnon@guelph.ca",
+            "fax": "519-822-8277",
+            "telephone": "519-822-1260 x 2296"
+        },
+        "cellNumber": {
+            "type": "Property",
+            "value": ""
+        },
+        "familyName": {
+            "type": "Property",
+            "value": "MacKinnon"
+        },
+        "gender": {
+            "type": "Property",
+            "value": "M"
+        },
+        "givenName": {
+            "type": "Property",
+            "value": "Mark"
+        },
+        "image": {
+            "type": "Property",
+            "value": "http://guelph.ca/wp-content/uploads/MarkMacKinnon.jpg"
+        },
+        "representsWard": {
+            "type": "Relationship",
+            "object": "6"
+        }
+    }
+]
