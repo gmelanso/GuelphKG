@@ -1,0 +1,1968 @@
+[
+    {
+        "id": "https://guelph.ca/wp-content/uploads/accessibleParkingBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2014)-19736"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2014-04-28"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1984)-11440"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Accessible Parking By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/AdditionalResidentialDwellingUnits2021-20609.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2021)-20609"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2000)-16454",
+                "(2023)-20790"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2021-05-31"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2017)-20199"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Additional Residential Dwelling Unit Registration By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/animalcontrolbylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2016)-20122"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2023)-20790"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2016-12-19"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1979)-10081",
+                "(1985)-11952",
+                "(1991)-14008",
+                "(2013)-19577"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Animal Control By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/BackFlowPreventionBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2016)-20028"
+        },
+        "legislationChanges": {
+            "type": "Relationship",
+            "object": [
+                "(1991)-13791"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2016-03-21"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Backflow Prevention By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Barbecues-on-balconies-bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2019)-20443"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2019-10-28"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1988)-12716"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Barbecues On Balconies By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Brooklyn_and_College_Hill_HCD_Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2014)-19812"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2014-09-08"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Brooklyn and College Hill HCD By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/budget-bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2023)-20758"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2023-01-25"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "2023 Budget By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Building-By-law-2015-19985.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2015)-19985"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(1988)-12922",
+                "(2016)-20097",
+                "(2017)-20216",
+                "(2019)-20372"
+            ]
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2017)-20174",
+                "(2016)-20060",
+                "(2019)-20411",
+                "(2019)-20450",
+                "(2020)-20549",
+                "(2021)-20654",
+                "(2022)-20738",
+                "(2023)-20792",
+                "(2016)-20089",
+                "(2019)-20371",
+                "(2019)-20385",
+                "(2020)-20520"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2015-11-23"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2012)-19356",
+                "(1987)-12602",
+                "(1995)-14803"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Building By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/DemolitionControlBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1988)-12922"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(1979)-10110"
+            ]
+        },
+        "legislationBlockedBy": {
+            "type": "relationship",
+            "object": [
+                "(1979)-10110"
+            ]
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(1989)-13162",
+                "(1990)-13516)"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1988-07-18"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1989)-13162"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Demolition Control By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Business-Licence-By-Law.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2009)-18855"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2010)-18949",
+                "(2011)-19144",
+                "(2011)-19262",
+                "(2012)-19396",
+                "(2012)-19515",
+                "(2013)-19613",
+                "(2013)-19639",
+                "(2015)-19904",
+                "(2016)-20123",
+                "(2016)-20149",
+                "(2018)-20272",
+                "(2019)-20376",
+                "(2019)-20415",
+                "(2020)-20525",
+                "(2022)-20670",
+                "(2022)-20733"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2009-09-28"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2004)-17551",
+                "(2005)-17707",
+                "(2005)-17907",
+                "(2006)-18175",
+                "(2007)-18254",
+                "(2007)-18433",
+                "(2008)-18638",
+                "(2009)-18728",
+                "(2010)-19079",
+                "(2011)-19275",
+                "(2012)-19462",
+                "(2013)-19528",
+                "(2014)-19722",
+                "(2015)-19905",
+                "(2015)-19940",
+                "(2016)-20030"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Business Licence By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Business-Licence-By-Law.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2019)-18855"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2019-07-22"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2019)-20373"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Chief Administrative Officer Appointment By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/EncroachmentBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2009)-18799"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2009-05-25"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2005)-17789",
+                "(2005)-17829"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "City Lands Encroachment By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Community-Benefits-Charges-By-law.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2022)-20714"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2022-09-18"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Community Benefits Charges By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Delegation-of-Authority-By-law-20794.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2023)-20794"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2018)-20259"
+            ]
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2023)-20812", 
+                "(2023)-20814"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2023-04-25"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2013)-19529",
+                "(2013)-19559",
+                "(2013)-19586",
+                "(2013)-19596",
+                "(2013)-19618",
+                "(2014)-19749",
+                "(2014)-19792",
+                "(2015)-19879",
+                "(2016)-20022",
+                "(2017)-20150",
+                "(2018)-20258",
+                "(2019)-20375",
+                "(2019)-20391",
+                "(2019)-20412",
+                "(2019)-20439",
+                "(2022)-20711"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "“Delegation of Authority By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/20216.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2017)-20216"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2017-10-10"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2003)-17045"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Development Application Fee By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Development-Charges-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2019)-20372"
+        },
+        "expires": {
+            "type": "Property",
+            "value": "2024-03-02"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2021)-20643",
+                "(2019)-20372"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2019-02-11"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2014)-19692"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Development Charges By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/election-sign-bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2022)-20704"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2006)-18034",
+                "(2021)-20621"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2022-04-25"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2022)-20685"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Election Sign By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/E-scooter-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2023)-20819"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(1997)-15402",
+                "(2002)-17017"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2023-07-25"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "E-scooter By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/FireRouteBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2003)-17082"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2003-03-17"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1979)-10075"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Fire Route By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Firearms_by-law.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1994)-14738"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(1998)-15877", 
+                "(2001)-16685", 
+                "(2011)-19304"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1994-11-07"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1991)-13863",
+                "(1993)-14504"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Firearms By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/FireworksBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1993)-14362"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(1994)-14680",
+                "(1998)-15878",
+                "(1999)-16207", 
+                "(2013)-19578"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1993-05-04"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1992)-14097"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Fireworks By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/FoulingOfHighwaysBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2006)-18034"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2018)-20353"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2006-05-15"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1981)-10777", 
+                "(1993)-14418", 
+                "(1999)-15975",
+                "(2000)-16375"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Fouling of Highways By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Traffic_Bylaw1.pdf#page=1",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2002)-17017"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2003)-17238",
+                "(2003)-17256",
+                "(2003)-17318",
+                "(2004)-17500",
+                "(2004)-17525",
+                "(2004)-17607",
+                "(2004)-17621",
+                "(2005)-17886",
+                "(2006)-18107",
+                "(2006)-18161",
+                "(2007)-18213",
+                "(2007)-18280",
+                "(2007)-18339",
+                "(2007)-18435",
+                "(2008)-18482",
+                "(2008)-18535",
+                "(2008)-18563",
+                "(2008)-18572",
+                "(2009)-18796",
+                "(2009)-18858",
+                "(2009)-18877",
+                "(2009)-18913",
+                "(2010)-18986",
+                "(2012)-19387",
+                "(2013)-19646",
+                "(2014)-19746",
+                "(2014)-19783",
+                "(2017)-20182",
+                "(2018)-20291",
+                "(2019)-20359",
+                "(2019)-20378",
+                "(2003)-17075",
+                "(2004)-17597",
+                "(2005)-17696",
+                "(2007)-18418",
+                "(2008)-18482",
+                "(2009)-18877",
+                "(2011)-19259",
+                "(2012)-19387",
+                "(2012)-19408",
+                "(2012)-19465",
+                "(2013)-19657",
+                "(2014)-19783",
+                "(2015)-19939",
+                "(2016)-20003",
+                "(2016)-20085",
+                "(2017)-20171",
+                "(2003)-17058",
+                "(2003)-17075",
+                "(2003)-17137",
+                "(2003)-17155",
+                "(2003)-17200",
+                "(2003)-17318",
+                "(2004)-17335",
+                "(2004)-17365",
+                "(2004)-17389",
+                "(2004)-17488",
+                "(2004)-17500",
+                "(2004)-17558",
+                "(2004)-17607",
+                "(2004)-17621",
+                "(2007)-18213",
+                "(2007)-18232",
+                "(2007)-18435",
+                "(2008)-18563",
+                "(2011)-19227",
+                "(2012)-19342",
+                "(2012)-19408",
+                "(2012)-19478",
+                "(2012)-19504",
+                "(2016)-20096",
+                "(2017)-20129",
+                "(2017)-20148",
+                "(2018)-20267",
+                "(2019)-20409",
+                "(2003)-17058",
+                "(2003)-17075",
+                "(2003)-17137",
+                "(2003)-17155",
+                "(2003)-17200",
+                "(2003)-17318",
+                "(2004)-17335",
+                "(2004)-17365",
+                "(2004)-17389",
+                "(2004)-17488",
+                "(2004)-17500",
+                "(2004)-17558",
+                "(2004)-17607",
+                "(2004)-17621",
+                "(2007)-18213",
+                "(2007)-18232",
+                "(2007)-18435",
+                "(2008)-18563",
+                "(2011)-19227",
+                "(2012)-19342",
+                "(2012)-19408",
+                "(2012)-19478",
+                "(2012)-19504",
+                "(2016)-20096",
+                "(2017)-20129",
+                "(2017)-20148",
+                "(2018)-20267",
+                "(2019)-20409",
+                "(2003)-17058",
+                "(2003)-17075",
+                "(2003)-17137",
+                "(2003)-17155",
+                "(2003)-17200",
+                "(2003)-17318",
+                "(2004)-17335",
+                "(2004)-17365",
+                "(2004)-17389",
+                "(2004)-17488",
+                "(2004)-17500",
+                "(2004)-17558",
+                "(2004)-17607",
+                "(2004)-17621",
+                "(2007)-18213",
+                "(2007)-18232",
+                "(2007)-18435",
+                "(2008)-18563",
+                "(2011)-19227",
+                "(2012)-19342",
+                "(2012)-19408",
+                "(2012)-19478",
+                "(2012)-19504",
+                "(2016)-20096",
+                "(2017)-20129",
+                "(2017)-20148",
+                "(2018)-20267",
+                "(2019)-20409",
+                "(2003)-17058",
+                "(2003)-17075",
+                "(2003)-17137",
+                "(2003)-17155",
+                "(2003)-17200",
+                "(2003)-17318",
+                "(2004)-17335",
+                "(2004)-17365",
+                "(2004)-17389",
+                "(2004)-17488",
+                "(2004)-17500",
+                "(2004)-17558",
+                "(2004)-17607",
+                "(2004)-17621",
+                "(2007)-18213",
+                "(2007)-18232",
+                "(2007)-18435",
+                "(2008)-18563",
+                "(2011)-19227",
+                "(2012)-19342",
+                "(2012)-19408",
+                "(2012)-19478",
+                "(2012)-19504",
+                "(2016)-20096",
+                "(2017)-20129",
+                "(2017)-20148",
+                "(2018)-20267",
+                "(2019)-20409",
+                "(2003)-17058",
+                "(2003)-17075",
+                "(2003)-17137",
+                "(2003)-17155",
+                "(2003)-17200",
+                "(2003)-17318",
+                "(2004)-17335",
+                "(2004)-17365",
+                "(2004)-17389",
+                "(2004)-17488",
+                "(2004)-17500",
+                "(2004)-17558",
+                "(2004)-17607",
+                "(2004)-17621",
+                "(2007)-18213",
+                "(2007)-18232",
+                "(2007)-18435",
+                "(2008)-18563",
+                "(2011)-19227",
+                "(2012)-19342",
+                "(2012)-19408",
+                "(2012)-19478",
+                "(2012)-19504",
+                "(2016)-20096",
+                "(2017)-20129",
+                "(2017)-20148",
+                "(2018)-20267",
+                "(2019)-20409"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2002-12-02"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2002)-16991",
+                "(1979)-10208"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Heavy Trucks By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/IdlingBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1998)-15945"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2012)-19390"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1998-12-21"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Idling By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/SkateboardingBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2002)-17017 excerpt"
+        },
+        "legislationChanges": {
+            "type": "Relationship",
+            "object": [
+                "(2002)-17017"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Inline Skating, Skateboarding, Non-motorized Scooters By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Interim_tax_bylaw_20128.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2017)-20128"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2017-01-30"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Interim Tax By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/MeetingInvestigationBy-law.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2008)-18492"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2008-01-28"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Meeting Investigation By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/MotorizedSnowVehiclesBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1971)-7622"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1971-04-05"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1968)-6979",
+                "(1971)-7575"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Motorized Snow Vehicles By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/NoiseControlBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2000)-16366"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2013)-19527"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2000-07-17"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1998)-15760"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Noise Control By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/NuisancePartiesBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2013)-19557"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2013-04-29"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Nuisance Party By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/OutsideWaterUseBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2014)-19714"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2009)-18776",
+                "(2023)-20790"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2014-03-17"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2003)-17106"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Outside Water Use By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/parking-bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2021)-20653"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2021-12-02"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2020)-20548"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Parking By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/parkland-dedication-bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2022)-20717"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2022-07-19"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2019)-20366"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Parkland Dedication By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/ParkingInParksBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2003)-17224"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2003-08-11"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1991)-13798"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Parking in Parks By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/PowerOfEntryBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2009)-18776"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2009)-18832"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2009-04-28"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Power of Entry Bylaw"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Private-Property-Parking-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1997)-15402"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2002)-16789", 
+                "(2003)-17227", 
+                "(2004)-17492"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1997-04-07"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1968)-6711"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Private Property Parking By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/procedural-bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2023)-20791"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+            ]
+        },
+        "legislationChanges": {
+            "type": "Relationship",
+            "object": [
+
+            ]
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2023-06-27"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2021)-20649"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Procedure By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/PropertyStandardsBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2000)-16454"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2001)-16498", 
+                "(2003)-17109", 
+                "(2005)-17800", 
+                "(2012)-19425"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2000-10-16"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1968)-6952", 
+                "(1978)-9884", 
+                "(1979)-10110", 
+                "(1980)-10423", 
+                "(1983)-11258", 
+                "(1985)-11723"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Property Standards By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Purchasing-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2018)-20259"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2018-03-26"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2014)-19771"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Procurement By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/SewerUseBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1991)-13791"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(1996)-15202"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1991-04-02"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1979)-10230"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Sewer Use By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/ShoppingCartsBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2005)-17785"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2005-07-18"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "The Shopping Cart By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Sign-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2021)-20621"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2021)-20655",
+                "(2015)-19985",
+                "(2009)-18776",
+                "(1995)-14864"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2021-07-19"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1996)-15245"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Sign By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Site_Alteration_Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2016)-20097"
+        },
+        "legislationChanges": {
+            "type": "Relationship",
+            "object": [
+                "(2007)-18420"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2016-09-26"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "City of Guelph Site Alteration By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Smoking-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2019)-20379"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2019)-20390"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2019-02-25"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1995)-14892", 
+                "(2000)-16387", 
+                "(2003)-17197",
+                "(2006)-17954"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Smoking By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Single-Use-Items-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2022)-20701"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2022-09-14"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Single-Use Items By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/StandingWaterBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2003)-17192"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2003-07-14"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Standing Water By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Stormwater-Fees-Charges-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2021)-20652"
+        },
+        "legislationChanges": {
+            "type": "Relationship",
+            "object": [
+                "(2016)-20107"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2021-12-02"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Storm Water Fees and Charges By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/StormwaterDisposalBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1993)-14515"
+        },
+        "legislationChanges": {
+            "type": "Relationship",
+            "object": [
+                "(1987)-12602"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1993-12-20"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Storm Water By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/SwimmingPoolBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2019)-20408"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2019)-20421"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2019-05-27"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1994)-14660"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Swimming Pool By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/20698.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2022)-20698"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2022-03-28"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2002)-17017"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Traffic and Parking By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/TrappingBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2009)-18709"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2009-01-26"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Trapping By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/TreeBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2010)-19058"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2009)-18776"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2010-08-03"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1986)-12229"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Tree By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/UnattendedMotorVehiclesBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1977)-9650"
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2006)-18014"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1977-11-21"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Unattended Motor Vehicles By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/User-Fees-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2021)-20655"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2021-12-02"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "User Fees By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Waste-Management-Bylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2019)-20392"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2009)-18776",
+                "(2000)-16454",
+                "(2002)-17017",
+                "(2017)-20231",
+                "(1995)-14864"
+            ]
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": [
+                "(2019)-20423",
+                "(2021)-20562", 
+                "(2022)-20702"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2019-04-01"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2011)-19199",
+                "(2012)-19498"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Waste Management By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/WaterAndWastewaterCustomerAccountsBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2016)-20074"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2015)-19977",
+                "(2023)-20790"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2016-06-28"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Water and Wastewater Customer Accounts By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/WaterBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(1991)-13791"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "1991-04-02"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1979)-10230"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Water By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/water-wastewater-fees-by-law.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2021)-20651"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2021-12-02"
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(2020)-20546"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Water and Wastewater Fees By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/YardMaintenanceBylaw.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2008)-18552"
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": [
+                "(2023)-20790"
+            ]
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": "2008-05-27"
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Yard Maintenance By-law"
+        }
+    },
+    {
+        "id": "https://guelph.ca/wp-content/uploads/Guelph-Zoning-Bylaw-20790.pdf",
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": "(2023)-20790"
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": ""
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": [
+                "(1995)-14864"
+            ]
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": "Zoning By-law"
+        }
+    }                                         
+]

@@ -1,40 +1,32 @@
-
 import json
+from entities.utils import *
+from entities.definitions import PERSON
 
-import pandas as pd
-from utils import *
+minutes= read_json('./entities/json/MeetingMinutes.json')
 
+def aliases_to_ids(l_string):
 
-attributes= ['yeas', 'nays']
+    if l_string is None:
+        return []
 
-data= read_json("entities/MeetingMinutes/MeetingMinutes.json")
+    def alias_table():
+        with open('tables/json/aliases.json', 'r') as file:
+            return json.load(file)
 
-with open('tables/aliases.json', 'r') as file:
-    aliases= json.load(file)
+    ids = []
+    aliases= alias_table()
 
-aliases_to_id = {name: alias["id"] for alias in aliases for name in [alias["display"]] + alias["aliases"]}
+    for s in l_string:
+        for alias in aliases:
+            if s in alias['aliases'] or s == (alias['display']):
+                ids.append(alias['id'])
 
-def replace_names_with_ids(data_list, aliases_to_id, attribute_name):
-    for meeting_data in data_list:
-        if attribute_name not in meeting_data:
-            continue
+    return ids
 
-        attribute_value = meeting_data.get(attribute_name, {}).get('object', [])
-        
-        # Replace names with corresponding IDs, remove names not found
-        updated_attribute = [aliases_to_id.get(name, None) for name in attribute_value if aliases_to_id.get(name)]
-        
-        # Remove names not found (replace None with ID)
-        updated_attribute = [item_id for item_id in updated_attribute if item_id is not None]
-        
-        # Update the attribute list in the meeting_data
-        meeting_data[attribute_name]['object'] = updated_attribute
+for minute in minutes:
+    for key, value in minute.items():
+        if key in PERSON['relationships']:
+            minute[key]['object']= aliases_to_ids(minute[key]['object'])
 
-for attribute in attributes:
-    replace_names_with_ids(data, aliases_to_id, attribute)
-
-with open("entities/MeetingMinutes/MeetingMinutes.json", 'w') as file:
-    json.dump(data, file, indent=4)
-
-
+save_json(minutes, 'test.json')
 

@@ -1,7 +1,56 @@
+import uuid
 from datetime import datetime
-from ..utils import *
+from .utils import *
 
-def create_councillor_entity(row):
+PERSON= {
+    "relationships": {
+        "attendees": "Attendees of an Event.",
+        "yeas": "Support a legislative CreativeWork",
+        "nays": "Opposes a legislative CreativeWork",
+        "movedBy": "",
+        "secondedBy": ""
+    }
+}
+
+def ByLaw(**kwargs):
+    return {
+        "id": kwargs['id'] if 'id' in kwargs else str(uuid.uuid4()),
+        "type": "Legislation",
+        "bylawId": {
+            "type": "Property",
+            "value": kwargs['bylawId'] if 'bylawId' in kwargs else []
+        },
+        "legislationApplies": {
+            "type": "Relationship",
+            "object": kwargs['legislationApplies'] if 'legislationApplies' in kwargs else []
+        },
+        "legislationConsolidates": {
+            "type": "Relationship",
+            "object": kwargs['legislationConsolidates'] if 'legislationConsolidates' in kwargs else []
+        },
+        "legislationDate": {
+            "type": "Property",
+            "value": kwargs['legislationDate'] if 'legislationDate' in kwargs else []
+        },
+        "legislationRepeals": {
+            "type": "Relationship",
+            "object": kwargs['legislationRepeals'] if 'legislationRepeals' in kwargs else []
+        },
+        "legislationType": {
+            "type": "Property",
+            "value": "By-law"
+        },
+        "name": {
+            "type": "Property",
+            "value": kwargs['name'] if 'name' in kwargs else (kwargs['bylawId'] if 'bylawId' in kwargs else [])
+        },
+        "recordedAt": { 
+            "type": "Relationship",
+            "object": kwargs['recordedAt'] if 'recordedAt' in kwargs else []
+        }
+    }
+
+def Person(row):
     return {
         "id": str(uuid.uuid4()),
         "type": "Person",
@@ -43,39 +92,37 @@ def create_councillor_entity(row):
     }
 
 
-def create_item_entity(abstract, has_parts, id, meeting_id, moved_by, seconded_by, title):
+def AgendaItem(**kwargs):
     return {
         "type": "AgendaItem",
-        "id": id,
+        "id": kwargs['id'] if 'id' in kwargs else [],
         "abstract": {
             "type": "Property",
-            "value": abstract
+            "value": kwargs['abstract'] if 'abstract' in kwargs else []
+        },
+        "dateCreated": {
+            "type": "Property",
+            "value": kwargs['dateCreated'] if 'dateCreated' in kwargs else []
         },
         "hasPart": {
             "type": "Relationship",
-            "object": has_parts
+            "object": kwargs['hasPart'] if 'hasPart' in kwargs else []
         },
         "isPartOf": {
             "type": "Relationship",
-            "object": [
-                meeting_id
-            ]
+            "object": kwargs['isPartOf'] if 'isPartOf' in kwargs else []
         },
         "movedBy": {
             "type": "Relationship",
-            "object": [
-                moved_by
-            ]
+            "object": kwargs['movedBy'] if 'movedBy' in kwargs else []
         },
         "title": {
             "type": "Property",
-            "value": title
+            "value": kwargs['title'] if 'title' in kwargs else []
         },
         "secondedBy": {
             "type": "Relationship",
-            "object": [
-                seconded_by
-            ]            
+            "object": kwargs['secondedBy'] if 'secondedBy' in kwargs else []           
         },
         "@context": [
             "https://schema.org/",
@@ -88,23 +135,21 @@ def create_item_entity(abstract, has_parts, id, meeting_id, moved_by, seconded_b
     }
 
 
-def create_meeting_entity(attendees, date, id, items):
+def MeetingMinutes(**kwargs):
     return {  
         "type": "MeetingMinutes",
-        "id": id,
+        "id": kwargs['id'] if 'id' in kwargs else [],
         "attendees": {
             "type": "Relationship",
-            "object": [
-                attendee for attendee in attendees
-            ]
+            "object": kwargs['attendees'] if 'attendees' in kwargs else []
         },
         "dateCreated": {
             "type": "Property",
-            "value": convert_to_iso_format(date)
+            "value": kwargs['dateCreated'] if 'dateCreated' in kwargs else []
         },
         "hasPart": {
             "type": "Relationship",
-            "object": [item for item in items]
+            "object": kwargs['hasPart'] if 'hasPart' in kwargs else []
         },
         "@context": [
             "https://schema.org/",
@@ -113,45 +158,45 @@ def create_meeting_entity(attendees, date, id, items):
     }
 
 
-def create_motion_entity(about, abstract, id, item, moved_by, seconded_by, sequence, vote_id):
+def Motion(**kwargs):
     return {
         "type": "Motion",
-        "id":  id,
+        "id":  kwargs['id'] if 'id' in kwargs else [],
         "about": {
             "type": "Property",
-            "value": about           
+            "value": kwargs['about'] if 'about' in kwargs else []          
         },
         "abstract": {
             "type": "Property",
-            "value": abstract
+            "value": kwargs['abstract'] if 'abstract' in kwargs else []
+        },
+        "dateCreated": {
+            "type": "Property",
+            "value": kwargs['dateCreated'] if 'dateCreated' in kwargs else []
         },
         "isPartOf": {
             "type": "Relationship",
-            "object": [
-                item
-            ]
+            "object": kwargs['isPartOf'] if 'isPartOf' in kwargs else []
         },
         "movedBy": {
             "type": "Relationship",
-            "object": [
-                moved_by
-            ]
+            "object": kwargs['movedBy'] if 'movedBy' in kwargs else []
+        },
+        "nays": {
+            "type": "Relationship",
+            "object": kwargs['nays'] if 'nays' in kwargs else []
         },
         "secondedBy": {
             "type": "Relationship",
-            "object": [
-                seconded_by
-            ]            
+            "object": kwargs['secondedBy'] if 'secondedBy' in kwargs else []            
         },
         "sequence": {
             "type": "Property",
-            "value": sequence        
+            "value": kwargs['sequence'] if 'sequence' in kwargs else []        
         },
-        "vote": {
+        "yeas": {
             "type": "Relationship",
-            "object": [
-                vote_id
-            ]
+            "object": kwargs['yeas'] if 'yeas' in kwargs else []
         },
         "@context": [
             "https://schema.org/",
@@ -159,35 +204,23 @@ def create_motion_entity(about, abstract, id, item, moved_by, seconded_by, seque
             {
             "vote": "https://schema.org/workPerformed",
             "movedBy": "https://schema.org/contributor",
-            "secondedBy": "https://schema.org/contributor"
+            "secondedBy": "https://schema.org/contributor",
+            "yeas": "https://schema.org/contributor",
+            "nays": "https://schema.org/contributor"
             }
         ]
     }
 
-def create_vote_entity(id, motion_id, nays, yeas):
+
+def newProperty(obj=None):
     return {
-        "type": "VoteAction",
-        "id":  id,
-        "yeas": {
-            "type": "Relationship",
-            "object": yeas
-        },
-        "nays": {
-            "type": "Relationship",
-            "object": nays
-        },
-        "subjectOf": {
-            "type": "Relationship",
-            "object": [
-                motion_id
-            ]
-        },
-        "@context": [
-            "https://schema.org/",
-            "https://schema.org/CreativeWork",
-            {
-            "yeas": "https://schema.org/contributor",
-            "nays": "https://schema.org/contributor"
-            }
-        ] 
+        "type": "Property",
+        "value": obj if obj else []
+    }
+
+
+def newRelation(obj=None):
+    return {
+        "type": "Relationship",
+        "object": obj if obj else []
     }
