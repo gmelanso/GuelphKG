@@ -1,7 +1,7 @@
 import argparse
 import json
 
-from GuelphKG.entities.definitions import PERSON
+from definitions import PERSON
 
 def aliases_to_ids(l_string):
 
@@ -23,7 +23,7 @@ def aliases_to_ids(l_string):
     return ids
 
 if __name__=="__main__":
-
+    
     parser = argparse.ArgumentParser(
         prog='aliases_to_ids',
         description='Converts a list of strings to a list of IDs.'
@@ -46,4 +46,3 @@ if __name__=="__main__":
 
     with open(args.f_name, 'w') as file:
         minutes= json.dump(minutes, file, indent=4)
-

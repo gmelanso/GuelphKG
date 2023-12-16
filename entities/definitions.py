@@ -1,6 +1,6 @@
 import uuid
 from datetime import datetime
-from .utils import *
+from utils import *
 
 PERSON= {
     "relationships": {
@@ -19,6 +19,14 @@ def ByLaw(**kwargs):
         "bylawId": {
             "type": "Property",
             "value": kwargs['bylawId'] if 'bylawId' in kwargs else []
+        },
+        "dateCreated": { 
+            "type": "Property",
+            "value": kwargs['dateCreated'] if 'dateCreated' in kwargs else []
+        },
+        "isPartOf": { 
+            "type": "Relationship",
+            "object": kwargs['isPartOf'] if 'isPartOf' in kwargs else []
         },
         "legislationApplies": {
             "type": "Relationship",
