@@ -3,12 +3,13 @@ import json
 import os
 import re
 import uuid
+import requests
 
 from itertools import chain
 from datetime import datetime
 
-from definitions import create_vote_entity, create_motion_entity, 
-from definitions import create_item_entity, create_meeting_entity
+from definitions import Motion, AgendaItem, MeetingMinutes 
+from utils import convert_to_iso_format
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -68,6 +69,7 @@ def get_meeting_minutes_urls():
         key= link_element.get_attribute('aria-label')
         key= re.search(pattern, key)
         key= key.group(1)
+        key= convert_to_iso_format(key)
         hrefs[key] = link_element.get_attribute("href")
         
     driver.quit()
@@ -79,7 +81,6 @@ def parse_minutes_to_json(url, date):
 
     items= []
     motions= []
-    votes= []
 
     meeting_has_part= []
 
@@ -121,15 +122,6 @@ def parse_minutes_to_json(url, date):
             item_result= item.find('div', class_='MotionResult').get_text(strip=True) if item.find('div', class_='MotionResult') else None
             item_title= f"{counter} {title}"
 
-            item_vote_id= str(uuid.uuid4())
-            item_voters= item.find('table', class_='MotionVoters').get_text(strip=True) if item.find('table', class_='MotionVoters') else None
-            item_yeas, item_nays= vote_record(item_voters)
-
-            if item_yeas:
-                votes.append(
-                    create_vote_action(id=item_vote_id, motion_id=item_id, nays=item_nays, yeas=item_yeas)
-                )
-
             # Check if AgendaItemMotions exist within the item
             agenda_item_motions = item.find('ul', class_='AgendaItemMotions')
             item_has_part= []
@@ -152,51 +144,43 @@ def parse_minutes_to_json(url, date):
                     motion_sequence= index
                     item_has_part.append(motion_id)
 
-                    vote_id= str(uuid.uuid4())
                     motion_vote= motion.find('table', class_='MotionVoters').get_text(strip=True) if motion.find('table', class_='MotionVoters') else None
                     motion_yeas, motion_nays= vote_record(motion_vote)
 
                     motions.append(
-                        create_motion_entity(
+                        Motion(
                             about=motion_about, 
                             abstract=motion_abstract, 
+                            dateCreated=date,
                             id=motion_id, 
-                            item=item_id, 
-                            moved_by=motion_moved_by, 
-                            seconded_by=motion_seconded_by, 
-                            sequence=motion_sequence, 
-                            vote_id=vote_id
+                            isPartOf=item_id, 
+                            movedBy=motion_moved_by, 
+                            secondedBy=motion_seconded_by, 
+                            sequence=motion_sequence,
+                            yeas=motion_yeas,
+                            nays=motion_nays
                             )
                         )
 
-                    if motion_yeas:
-                        votes.append(
-                            create_vote_entity(
-                                id=vote_id, 
-                                motion_id=motion_id, 
-                                nays=motion_nays, 
-                                yeas=motion_yeas
-                                )
-                            )
-
             items.append(
-                create_item_entity( 
-                    abstract=item_abstract, 
-                    has_parts=item_has_part, 
+                AgendaItem( 
+                    abstract=item_abstract,
+                    dateCreated=date, 
+                    hasPart=item_has_part, 
                     id=item_id, 
-                    meeting_id=url, 
-                    moved_by=item_moved_by, 
-                    seconded_by=item_seconded_by, 
+                    isPartOf=url, 
+                    movedBy=item_moved_by, 
+                    secondedBy=item_seconded_by, 
                     title=item_title)
             )
 
-        meeting= create_meeting_entity(
+        meeting= MeetingMinutes(
             attendees=all_attendees, 
-            date=date, 
+            dateCreated=date, 
             id=url, 
-            items=meeting_has_part)
+            hasPart=meeting_has_part)
 
-    return meeting, items, motions, votes
+    return meeting, items, motions
 
 
 def vote_record(s):
@@ -216,13 +200,12 @@ if __name__=="__main__":
 
     meeting_objs= []
 
-    with open('./data/minutes/minutes_url.json', 'r') as file:
-        urls= json.load(file)
+    urls= get_meeting_minutes_urls()
     
     for date, url in urls.items():
-        meeting, items, motions, votes= parse_minutes_to_json(url, date)
+        meeting, items, motions= parse_minutes_to_json(url, date)
         meeting_objs.append(meeting)
-        for each in [items, motions, votes]:
+        for each in [items, motions]:
             meeting_objs.extend(each)
 
     with open('./entities/json/MeetingMinutes.json', 'w') as file:
